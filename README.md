@@ -1,5 +1,5 @@
 # TigerVNC-Manager
-<p align="center">![alt text](https://user-images.githubusercontent.com/26261213/27513996-d67918f0-5941-11e7-8435-32d4f51f2df5.JPG)</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/26261213/27513996-d67918f0-5941-11e7-8435-32d4f51f2df5.JPG" /></p>
 
 A GUI for TigerVNC built on powershell and winforms.
 
