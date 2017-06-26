@@ -66,12 +66,13 @@ function Save-VNC ($status)
 		{
 			$item | Add-Member -Type NoteProperty -Name 'ServerName' -Value $newsavip.Text
 			$hostname = $savname.Text
-		}elseIf ($editname.Checked -eq $true -and $newsavname.Text -ne $null)
+		}
+		If ($editname.Checked -eq $true -and $newsavname.Text -ne $null)
 		{
 			$item | Add-Member -Type NoteProperty -Name 'ServerName' -Value $savip.Text
 			$hostname = $newsavname.Text
 		}
-		else
+		If ($editname.Checked -eq $false -and $editip.Checked -eq $false)
 		{
 			$item | Add-Member -Type NoteProperty -Name 'ServerName' -Value $savip.Text
 			$hostname = $savname.Text
